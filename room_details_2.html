@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Ansonika">
+        <title>Zakinn</title>
+        
+        <!-- Favicons-->
+        <link rel="shortcut icon" href="img/Zakinn_logo.png" type="image/x-icon">
+      
+    
+        <!-- GOOGLE WEB FONT-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&amp;family=Montserrat:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    
+        <!-- BASE CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+          <link href="css/vendors.min.css" rel="stylesheet">
+    
+        <!-- YOUR CUSTOM CSS -->
+        <link href="css/custom.css" rel="stylesheet">
+    <style class="fslightbox-styles">.fslightbox-absoluted{position:absolute;top:0;left:0}.fslightbox-fade-in{animation:fslightbox-fade-in .3s cubic-bezier(0,0,.7,1)}.fslightbox-fade-out{animation:fslightbox-fade-out .3s ease}.fslightbox-fade-in-strong{animation:fslightbox-fade-in-strong .3s cubic-bezier(0,0,.7,1)}.fslightbox-fade-out-strong{animation:fslightbox-fade-out-strong .3s ease}@keyframes fslightbox-fade-in{from{opacity:.65}to{opacity:1}}@keyframes fslightbox-fade-out{from{opacity:.35}to{opacity:0}}@keyframes fslightbox-fade-in-strong{from{opacity:.3}to{opacity:1}}@keyframes fslightbox-fade-out-strong{from{opacity:1}to{opacity:0}}.fslightbox-cursor-grabbing{cursor:grabbing}.fslightbox-full-dimension{width:100%;height:100%}.fslightbox-open{overflow:hidden;height:100%}.fslightbox-flex-centered{display:flex;justify-content:center;align-items:center}.fslightbox-opacity-0{opacity:0!important}.fslightbox-opacity-1{opacity:1!important}.fslightbox-scrollbarfix{padding-right:17px}.fslightbox-transform-transition{transition:transform .3s}.fslightbox-container{font-family:Arial,sans-serif;position:fixed;top:0;left:0;background:linear-gradient(rgba(30,30,30,.9),#000 1810%);touch-action:pinch-zoom;z-index:1000000000;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}.fslightbox-container *{box-sizing:border-box}.fslightbox-svg-path{transition:fill .15s ease;fill:#ddd}.fslightbox-nav{height:45px;width:100%;position:absolute;top:0;left:0}.fslightbox-slide-number-container{display:flex;justify-content:center;align-items:center;position:relative;height:100%;font-size:15px;color:#d7d7d7;z-index:0;max-width:55px;text-align:left}.fslightbox-slide-number-container .fslightbox-flex-centered{height:100%}.fslightbox-slash{display:block;margin:0 5px;width:1px;height:12px;transform:rotate(15deg);background:#fff}.fslightbox-toolbar{position:absolute;z-index:3;right:0;top:0;height:100%;display:flex;background:rgba(35,35,35,.65)}.fslightbox-toolbar-button{height:100%;width:45px;cursor:pointer}.fslightbox-toolbar-button:hover .fslightbox-svg-path{fill:#fff}.fslightbox-slide-btn-container{display:flex;align-items:center;padding:12px 12px 12px 6px;position:absolute;top:50%;cursor:pointer;z-index:3;transform:translateY(-50%)}@media (min-width:476px){.fslightbox-slide-btn-container{padding:22px 22px 22px 6px}}@media (min-width:768px){.fslightbox-slide-btn-container{padding:30px 30px 30px 6px}}.fslightbox-slide-btn-container:hover .fslightbox-svg-path{fill:#f1f1f1}.fslightbox-slide-btn{padding:9px;font-size:26px;background:rgba(35,35,35,.65)}@media (min-width:768px){.fslightbox-slide-btn{padding:10px}}@media (min-width:1600px){.fslightbox-slide-btn{padding:11px}}.fslightbox-slide-btn-container-previous{left:0}@media (max-width:475.99px){.fslightbox-slide-btn-container-previous{padding-left:3px}}.fslightbox-slide-btn-container-next{right:0;padding-left:12px;padding-right:3px}@media (min-width:476px){.fslightbox-slide-btn-container-next{padding-left:22px}}@media (min-width:768px){.fslightbox-slide-btn-container-next{padding-left:30px}}@media (min-width:476px){.fslightbox-slide-btn-container-next{padding-right:6px}}.fslightbox-down-event-detector{position:absolute;z-index:1}.fslightbox-slide-swiping-hoverer{z-index:4}.fslightbox-invalid-file-wrapper{font-size:22px;color:#eaebeb;margin:auto}.fslightbox-video{object-fit:cover}.fslightbox-youtube-iframe{border:0}.fslightbox-loader{display:block;margin:auto;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:67px;height:67px}.fslightbox-loader div{box-sizing:border-box;display:block;position:absolute;width:54px;height:54px;margin:6px;border:5px solid;border-color:#999 transparent transparent transparent;border-radius:50%;animation:fslightbox-loader 1.2s cubic-bezier(.5,0,.5,1) infinite}.fslightbox-loader div:nth-child(1){animation-delay:-.45s}.fslightbox-loader div:nth-child(2){animation-delay:-.3s}.fslightbox-loader div:nth-child(3){animation-delay:-.15s}@keyframes fslightbox-loader{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}.fslightbox-source{position:relative;z-index:2;opacity:0}</style><style id="theia-sticky-sidebar-stylesheet-TSS">.theiaStickySidebar:after {content: ""; display: table; clear: both;}</style></head>
+
+    <body style="transform: none;"> 
+
+        <div id="preloader" class="loaded">
+            <div data-loader="circle-side" style="display: none;"></div>
+        </div><!-- /Page Preload -->
+    
+        <header class="fixed_header menu_v4">
+            <div class="layer"></div><!-- Opacity Mask -->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <a href="index.html" class="logo_normal"><img src="img/Zakinn-Logo-corp-01.png" width="300" height="100" alt="Zakinn"></a>
+                        <a href="index.html" class="logo_sticky"><img src="img/Zakinn-Logo-corp-01.png" width="300" height="100" alt="Zakinn"></a>
+                    </div>
+                    <div class="col-8">
+                        <div class="main-menu">
+                            <a href="index.html" class="closebt open_close_menu"><i class="bi bi-x"></i></a>
+                            <div class="logo_panel"><img src="img/Zakinn-Logo-corp-01.png"width="300" height="100" alt="Zakinn"></div>
+                            <nav id="mainNav">
+                                <ul>
+                                    <li><a href="index.html" class="animated_link">Home</a></li>
+                                    <li><a href="about.html" class="animated_link">About</a></li>
+                                    <li><a href="rooms.html" class="animated_link">Rooms &amp; Suites</a></li>
+                                    <li><a href="contacts.html" class="animated_link">Contacts</a></li>
+                                    <li><a href="#booking_section" class="btn_1">Book Now</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="hamburger_2 open_close_menu float-end">
+                            <div class="hamburger__box">
+                                <div class="hamburger__inner"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- container -->
+        </header><!-- End Header -->
+        
+        <main style="transform: none; margin-bottom: 590.391px;">
+    
+            <div class="hero full-height jarallax" data-jarallax="" data-speed="0.2">
+                
+                <div class="wrapper opacity-mask d-flex align-items-center text-center animate_hero is-transitioned" data-opacity-mask="rgba(0, 0, 0, 0.5)" style="background-color: rgba(0, 0, 0, 0.5);">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <small class="slide-animated one">Relax, Rejuvenate, Repeat.</small>
+                                <h1 class="slide-animated two">Standard Room</h1>
+                                <p class="slide-animated three">Exquisite furnishings for a cosy ambience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mouse_wp slide-animated four">
+                        <a href="#first_section" class="btn_explore">
+                            <div class="mouse"></div>
+                        </a>
+                    </div>
+                    <!-- / mouse -->
+                </div>
+            <div id="jarallax-container-0" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100; clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 100%);"><img class="jarallax-img kenburns" src="img/rooms/room7.jpg" alt="" style="object-fit: cover; object-position: 50% 50%; max-width: none; position: fixed; top: 0px; left: 0px; width: 1009px; height: 1366px; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; margin-top: 0px; transform: translate3d(0px, 0px, 0px);"></div></div>
+            <!-- /Background Img Parallax -->
+    
+            <div class="bg_white" id="first_section">
+                <div class="container margin_120_95">
+                    <div class="row justify-content-between">
+                        <div class="col-lg-4">
+                            <div class="title">
+                                <small class="text-success">Luxury Experience</small>
+                                <h2>Ideal for solo travelers or couples seeking refined simplicity.</h2>
+                            </div>
+                            <p> Unwind in our Classic Standard Rooms, where minimalist design meets cozy comfort. Featuring a plush king-sized bed, soft neutral tones, and floor-to-ceiling windows that bathe the space in natural light, these rooms are your tranquil home base.</p>
+                            <p>This room is fitted with 1 king sized bed , comes with a heater and a mini-fridge to store drinks and food plus a work-table</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="room_facilities_list">
+                                <ul data-cues="slideInLeft" data-disabled="true">
+                                    <li data-cue="slideInLeft" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;"><i class="icon-hotel-double_bed_2"></i>  1 King sized beds</li>
+                                    <li data-cue="slideInLeft" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 180ms; animation-direction: normal; animation-fill-mode: both;"><i class="icon-hotel-safety_box"></i> Mini-fridge</li>
+                                    <li data-cue="slideInLeft" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 180ms; animation-direction: normal; animation-fill-mode: both;"><i class="icon-hotel-tv"></i> 32 Inch TV</li>
+                                    <li data-cue="slideInLeft" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 180ms; animation-direction: normal; animation-fill-mode: both;"><i class="icon-hotel-wifi"></i> Wifi access</li>
+                                    <li data-cue="slideInLeft" data-show="true" style="animation-name: slideInLeft; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 180ms; animation-direction: normal; animation-fill-mode: both;"><i class="icon-hotel-condition"></i> Air Condition</li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /row -->
+                </div>
+                <!-- /container -->
+            </div>
+            <!-- /bg_white -->
+    
+            <div class="bg_white add_bottom_120">
+                <div class="container-fluid p-lg-0">
+                    <div data-cues="zoomIn" data-disabled="true">
+                        <div class="owl-carousel owl-theme carousel_item_centered kenburns rounded-img owl-loaded owl-drag" data-cue="zoomIn" data-show="true" style="animation-name: zoomIn; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                            
+                            
+                            
+                            
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage" style="transition: all; width: 4056px; transform: translate3d(-2281px, 0px, 0px);">
+                                <div class="owl-item cloned" style="width: 502px; margin-right: 5px;">
+                                    <div class="item">
+                                       <img src="img/rooms/room7.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="owl-item cloned" style="width: 502px; margin-right: 5px;">
+                                    <div class="item">
+                                        <img src="img/rooms/room26.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="owl-item" style="width: 502px; height: 500px; margin-right: 5px;">
+                                    <div class="item">
+                                        <img src="img/rooms/room11.jpg" alt="">
+                                    </div>
+                                </div>
+                                
+                                <div class="owl-item cloned" style="width: 502px ; height: 500px;margin-right: 5px;">
+                                    <div class="item">
+                                        <img src="img/rooms/room6.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-nav">
+                            <button type="button" role="presentation" class="owl-prev">
+                                <i class="bi bi-arrow-left-short"></i>
+                            </button>
+                            <button type="button" role="presentation" class="owl-next">
+                                <i class="bi bi-arrow-right-short"></i>
+                            </button>
+                        </div>
+                        <div class="owl-dots disabled"></div>
+                    </div>
+                    </div>        
+                    <div class="text-center mt-5">
+                        <a class="btn_1 outline" data-fslightbox="gallery_1" data-type="image" href="img/rooms/room26.jpg">FullScreen Gallery</a>
+                        <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/room7.jpg"></a>
+                        <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/room26.jpg"></a>
+                        <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/room6.jpg"></a>
+                        <a data-fslightbox="gallery_1" data-type="image" href="img/rooms/room11.jpg"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- /bg_white -->
+    
+            
+        
+            <!-- /reviews -->
+    
+            <div class="bg_white">
+                <div class="container margin_120_95">
+                    <div data-cue="slideInUp" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 0ms; animation-direction: normal; animation-fill-mode: both;">
+                        <div class="title">
+                            <small class="text-success">Zakinn Hotel</small>
+                            <h2>Similar Rooms</h2>
+                        </div>
+                        <div class="row" data-cues="slideInUp" data-delay="800" data-disabled="true">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6" data-cue="slideInUp" data-delay="800" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 800ms; animation-direction: normal; animation-fill-mode: both;">
+                                <a href="room_details_1.html" class="box_cat_rooms">
+                                    <figure>
+                                        <div class="background-image" data-background="url(img/rooms/room16.jpg)" ></div>
+                                        <div class="info">
+                                            <small>From $56 /night</small>
+                                            <h3>Executive Twin Room</h3>
+                                            <span>Read more</span>
+                                        </div>
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6" data-cue="slideInUp" data-delay="800" data-show="true" style="animation-name: slideInUp; animation-duration: 600ms; animation-timing-function: ease; animation-delay: 980ms; animation-direction: normal; animation-fill-mode: both;">
+                                <a href="room_details_3.html" class="box_cat_rooms">
+                                    <figure>
+                                        <div class="background-image" data-background="url(img/rooms/room17.jpg)" ></div>
+                                        <div class="info">
+                                            <small>From $48 /night</small>
+                                            <h3>Executive Room</h3>
+                                            <span>Read more</span>
+                                        </div>
+                                    </figure>
+                                </a>
+                            </div>
+                            
+                        </div>
+                        <!-- /row-->
+                    </div>
+                </div>
+            </div>
+            <!-- /bg_white -->
+    
+            <div class="container margin_120_95" id="booking_section">
+                <div class="row justify-content-between">
+                    <div class="col-xl-4">
+                        <div data-cue="slideInUp">
+                            <div class="title">
+                                <small>Zakinn Hotel</small>
+                                <h2>Check Availability</h2>
+                            </div>
+                            <p>What are you waiting for ? Call us right now to reserve your spot in paradise and experience the serene suburbs of Iringa  </p>
+                            <p class="phone_element no_borders"><a href="tel://423424234"><i class="bi bi-telephone"></i><span><em>Info and bookings</em>+255 26 270 0059 <br> +255 76 345 4525 </span></a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 m-auto">
+                        <div data-cue="slideInUp" data-delay="200">
+                            <div class="booking_wrapper mt-3 text-center">
+                                <div class="col-12 mb-2 p-2">
+                                    <p class="intro"> <em>Start Your Journey with Just One Click.</em> </p>
+                                    <p class="mt-1"><a href="#0" class="btn_1 outline">Book Now</a></p>
+                                   
+                                </div>
+                                
+                            </div>
+                            <!-- / row -->
+                            
+                        </div>
+                    </div>
+                    <!-- /col -->
+                </div>
+                <!-- /row -->
+            </div>
+            <!-- /container -->
+    
+        </main>
+    
+        <footer class="revealed" style="z-index: 1; position:fixed; bottom: 0px; width: 100%;">
+            <div class="footer_bg">
+                <div class="gradient_over"></div>
+                <div class="background-image" data-background="url(img/rooms/room5.jpg)" ></div>
+            </div>
+            <div class="container">
+                <div class="row move_content">
+                    <div class="col-lg-4 col-md-12">
+                        <h5>Contacts</h5>
+                        <ul>
+                            <li>Address: Plot 150/152 Gangilonga,
+                                <br>Iringa, Tanzania<br><br></li>
+                            <li><strong><a href="#0"> reservations@zaki.co.tz</a></strong></li>
+                            <li><strong><a href="#0">+255 26 270 0059</a></strong></li>
+                            <li><strong><a href="#0">+255 76 345 4525</a></strong></li>
+                        </ul>
+                        <div class="social">
+                            <ul>
+                                <li><a href="#0"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#0"><i class="bi bi-whatsapp"></i></a></li>
+                                <li><a href="#0"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#0"><i class="bi bi-twitter-x"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ms-lg-auto">
+                        <h5>Explore</h5>
+                        <div class="footer_links">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="rooms.html">Rooms &amp; Suites</a></li>
+                                <li><a href="contacts.html">Contacts</a></li>
+                                <li><a href="about.html">Terms and Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div id="newsletter">
+                            <h5>Newsletter</h5>
+                            <div id="message-newsletter"></div>
+                            <form method="post" action="phpmailer/newsletter_template_email.php" name="newsletter_form" id="newsletter_form">
+                                <div class="form-group">
+                                    <input type="email" name="email_newsletter" id="email_newsletter" class="form-control" placeholder="Your email">
+                                    <button type="submit" id="submit-newsletter"><i class="bi bi-send"></i></button>
+                                </div>
+                            </form>
+                            <p>Receive latest offers and promos without spam. You can cancel anytime.</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/row-->
+            </div>
+            <!--/container-->
+            <div class="copy">
+                <div class="container">
+                    © Zakinn - by <a href="#">Charles Kadete</a>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+       
+        <div class="progress-wrap">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102" style="visibility: visible;">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+            </svg>
+        </div>
+        <!-- /back to top -->
+    
+    
+    <!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.js"></script>
+    <script src="js/common_functions.js"></script>
+    <script src="js/datepicker_inline.js"></script>
+    <script src="phpmailer/validate.js"></script>
+    
+    
+    
+    <deepl-input-controller></deepl-input-controller></body>
+</html>
